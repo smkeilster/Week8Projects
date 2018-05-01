@@ -1,0 +1,65 @@
+.headerName{
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #404040;
+    /* position: fixed; */
+
+}
+
+.navbar
+{
+	overflow: hidden;
+    background-color: tomato;
+    display:flex;
+    justify-content: flex-start;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    color: #404040;
+}
+.navbar a
+{   
+    display:flex;
+    justify-content: flex-start;
+    color: black;
+	padding: 10px 20px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.navbar a:hover
+{
+	background-color: black;
+	color: white
+}
+.navbar a.active
+{
+	background-color: white;
+	color: tomato
+}
+
+.oddSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1c1c1c;
+    color: white;
+    min-height: 350px;
+    width: auto;
+
+    padding: 10px;
+    /* border: yellow 2px solid; */
+}
+
+.evenSection {
+    display: flex;
+    flex-direction: column;
+    background-color: #404040;
+    color: white;
+    min-height: 350px;
+    width: auto;
+ 
+    padding: 10px;
+    overflow: hidden;
+    /* border: green 2px solid; */
+}

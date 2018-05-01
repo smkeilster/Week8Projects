@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="wunderground.js"></script>
+    <title>Wunderground</title>
+    <style>
+        #answer{
+            display:flex;
+            justify-content: space-around;
+            background-color: hotpink;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1> I'm going to make an AWESOME API thing here.</h1>
+    <p> State: <input type=text id="state"> </p>
+    <p> City: <input type=text id="city"> </p>
+    <button type="button" onClick=getCityState()>Get yo weather info</button></br>
+
+    <p id="answer"></p>
+</body>
+</html>
