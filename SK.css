@@ -1,52 +1,71 @@
+
+
 .headerName{
-    font-size: 3em;
+    font-size: 3.2em;
     text-align: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     color: #404040;
+    height: auto;
+    background: white;
+    padding: .5em;
     /* position: fixed; */
 
 }
 
-.navbar
+ .navbar
 {
-	overflow: hidden;
     background-color: tomato;
     display:flex;
-    justify-content: flex-start;
+    align-items: center;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
     color: #404040;
+    /* margin-top:0; */
+    z-index: 1000;
+    border-radius: 5px;
 }
 .navbar a
 {   
     display:flex;
     justify-content: flex-start;
-    color: black;
-	padding: 10px 20px;
+    align-items: center;
+    color:  #404040;
+    padding: 10px 20px;
     font-size: 20px;
     text-decoration: none;
 }
 .navbar a:hover
 {
-	background-color: black;
-	color: white
+    background-color:  #404040;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
-.navbar a.active
+.navbar a:active
 {
-	background-color: white;
-	color: tomato
+    background-color: white;
+    color: tomato;
+    border-radius: 5px;
+}
+
+span {
+    display: block;
+    content: " ";
+    height: 186px;
+    margin-top: -186px;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .oddSection {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #1c1c1c;
-    color: white;
+    background-color: tomato;
+    color:white;
+    font-family: 'Raleway', sans-serif;
     min-height: 350px;
-    width: auto;
-
     padding: 10px;
     /* border: yellow 2px solid; */
 }
@@ -54,12 +73,24 @@
 .evenSection {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     background-color: #404040;
     color: white;
+    font-family: 'Raleway', sans-serif;
     min-height: 350px;
-    width: auto;
- 
     padding: 10px;
     overflow: hidden;
     /* border: green 2px solid; */
+}
+.hp
+{
+    border:hotpink 2px solid;
+}
+a{
+    color: #404040;
+}
+
+a:hover
+{
+    color: white;
 }
